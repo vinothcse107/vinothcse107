@@ -1,0 +1,193 @@
+{
+      /**
+       * * *****************************************************
+       * ? Vscode Editor
+       */
+
+      "files.autoSave": "onFocusChange",
+      "files.autoSaveDelay": 1000,
+      "workbench.iconTheme": "material-icon-theme",
+      "code-runner.runInTerminal": true,
+      "window.titleBarStyle": "custom",
+      "workbench.colorTheme": "One Dark Pro Darker",
+      "oneDarkPro.editorTheme": "One Dark Pro Darker",
+      "explorer.confirmDelete": false,
+      "extensions.ignoreRecommendations": true,
+      "workbench.preferredDarkColorTheme": "One Dark Pro",
+      "editor.fontSize": 16,
+      "editor.fontLigatures": false,
+      "emmet.showSuggestionsAsSnippets": true,
+      "editor.suggest.showStatusBar": true,
+      "workbench.startupEditor": "none",
+      "debug.console.fontSize": 15,
+      "editor.tabCompletion": "on",
+      "editor.quickSuggestions": true,
+      "files.exclude": {
+            "**/.classpath": true,
+            "**/.factorypath": true,
+            "**/.project": true,
+            "**/.settings": true
+      },
+      "security.workspace.trust.untrustedFiles": "open",
+      "terminal.integrated.defaultProfile.windows": "Git Bash",
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": true,
+      "editor.tabSize": 6,
+
+      /**
+       * * ********************************************************
+       * ? Code Runner
+       */
+      "code-runner.executorMap": {
+            "javascript": "node",
+            "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+            "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+            "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+            "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+            "php": "php",
+            "python": "python $fileName",
+            "perl": "perl",
+            "perl6": "perl6",
+            "ruby": "ruby",
+            "go": "go run",
+            "lua": "lua",
+            "groovy": "groovy",
+            "powershell": "powershell -ExecutionPolicy ByPass -File",
+            "bat": "cmd /c",
+            "shellscript": "bash",
+            "fsharp": "fsi",
+            "csharp": "cd $dir && dotnet run",
+            "vbscript": "cscript //Nologo",
+            "typescript": "cd $dir && tsc $fileName && node $fileNameWithoutExt.js",
+            "coffeescript": "coffee",
+            "scala": "scala",
+            "swift": "swift",
+            "julia": "julia",
+            "crystal": "crystal",
+            "ocaml": "ocaml",
+            "r": "Rscript",
+            "applescript": "osascript",
+            "clojure": "lein exec",
+            "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+            "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+            "racket": "racket",
+            "scheme": "csi -script",
+            "ahk": "autohotkey",
+            "autoit": "autoit3",
+            "dart": "dart",
+            "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+            "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+            "haskell": "runhaskell",
+            "nim": "nim compile --verbosity:0 --hints:off --run",
+            "lisp": "sbcl --script",
+            "kit": "kitc --run",
+            "v": "v run",
+            "sass": "sass --style expanded",
+            "scss": "scss --style expanded",
+            "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+            "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+            "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+            "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+            "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+      },
+
+      /**
+       * * ********************************************************
+       * ? C# Extensions
+       */
+
+      "omnisharp.useModernNet": true,
+      "omnisharp.path": "C:\\Users\\vinos\\.vscode\\extensions\\ms-dotnettools.csharp-1.24.0\\.omnisharp\\1.38.0\\OmniSharp.exe",
+      "[csharp]": {
+            "editor.defaultFormatter": "ms-dotnettools.csharp"
+      },
+
+      /**
+       * * ********************************************************
+       * ? Js & Type Script Settings
+       */
+      "typescript.updateImportsOnFileMove.enabled": "always",
+      "javascript.updateImportsOnFileMove.enabled": "always",
+      "[typescript]": {
+            "editor.defaultFormatter": "vscode.typescript-language-features"
+      },
+      "[html]": {
+            "editor.defaultFormatter": "vscode.html-language-features"
+      },
+      "editor.defaultFormatter": "vscode.typescript-language-features",
+
+      "tabnine.experimentalAutoImports": true,
+      "mssql.connections": [
+            {
+                  "server": "VINOTH\\SQLEXPRESS",
+                  "database": "",
+                  "authenticationType": "Integrated",
+                  "profileName": "MSSQL",
+                  "password": ""
+            }
+      ],
+
+      /**
+       * * ********************************************************
+       * ? Better Comments
+       */
+      "better-comments.tags": [
+            {
+                  "tag": "!",
+                  "color": "#FF2D00",
+                  "strikethrough": false,
+                  "underline": false,
+                  "backgroundColor": "transparent",
+                  "bold": false,
+                  "italic": false
+            },
+            {
+                  "tag": "?",
+                  "color": "#3498DB",
+                  "strikethrough": false,
+                  "underline": false,
+                  "backgroundColor": "transparent",
+                  "bold": false,
+                  "italic": false
+            },
+            {
+                  "tag": "//",
+                  "color": "#474747",
+                  "strikethrough": true,
+                  "underline": false,
+                  "backgroundColor": "transparent",
+                  "bold": false,
+                  "italic": false
+            },
+            {
+                  "tag": "todo",
+                  "color": "#FF8C00",
+                  "strikethrough": false,
+                  "underline": false,
+                  "backgroundColor": "transparent",
+                  "bold": false,
+                  "italic": false
+            },
+            {
+                  "tag": "*",
+                  "color": "#98C379",
+                  "strikethrough": false,
+                  "underline": false,
+                  "backgroundColor": "transparent",
+                  "bold": false,
+                  "italic": false
+            }
+      ],
+
+      /**
+       * * ********************************************************
+       * ? Prettier Settings
+       */
+      "prettier.trailingComma": "es5",
+      "prettier.tabWidth": 6,
+      "prettier.semi": false,
+      "prettier.singleQuote": true,
+      "[jsonc]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+      }
+}
