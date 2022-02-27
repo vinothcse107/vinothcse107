@@ -32,7 +32,8 @@
       "terminal.integrated.defaultProfile.windows": "Git Bash",
       "editor.formatOnPaste": true,
       "editor.formatOnSave": true,
-      "editor.tabSize": 6,
+      "editor.autoIndent": "brackets",
+      "editor.guides.indentation": true,
 
       /**
        * * ********************************************************
@@ -99,7 +100,10 @@
       "omnisharp.useModernNet": true,
       "omnisharp.path": "C:\\Users\\vinos\\.vscode\\extensions\\ms-dotnettools.csharp-1.24.0\\.omnisharp\\1.38.0\\OmniSharp.exe",
       "[csharp]": {
-            "editor.defaultFormatter": "ms-dotnettools.csharp"
+            "editor.defaultFormatter": "ms-dotnettools.csharp",
+            "editor.tabSize": 6,
+            "editor.formatOnType": true,
+            "editor.formatOnSave": true
       },
 
       /**
@@ -189,5 +193,8 @@
       "prettier.singleQuote": true,
       "[jsonc]": {
             "editor.defaultFormatter": "esbenp.prettier-vscode"
-      }
+      },
+      "csharpextensions.privateMemberPrefix": "_",
+      "editor.tabSize": 6,
+      "editor.detectIndentation": false
 }
