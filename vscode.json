@@ -9,17 +9,16 @@
       "workbench.iconTheme": "material-icon-theme",
       "code-runner.runInTerminal": true,
       "window.titleBarStyle": "custom",
-      "workbench.colorTheme": "One Dark Pro Darker",
       "oneDarkPro.editorTheme": "One Dark Pro Darker",
       "explorer.confirmDelete": false,
       "extensions.ignoreRecommendations": true,
       "workbench.preferredDarkColorTheme": "One Dark Pro",
-      "editor.fontSize": 16,
-      "editor.fontLigatures": false,
+      "editor.fontSize": 14,
+      "editor.fontLigatures": true,
       "emmet.showSuggestionsAsSnippets": true,
       "editor.suggest.showStatusBar": true,
       "workbench.startupEditor": "none",
-      "debug.console.fontSize": 15,
+      "debug.console.fontSize": 14,
       "editor.tabCompletion": "on",
       "editor.quickSuggestions": true,
       "files.exclude": {
@@ -32,8 +31,18 @@
       "terminal.integrated.defaultProfile.windows": "Git Bash",
       "editor.formatOnPaste": true,
       "editor.formatOnSave": true,
-      "editor.autoIndent": "brackets",
-      "editor.guides.indentation": true,
+      "editor.tabSize": 6,
+      "editor.detectIndentation": false,
+      "editor.fontFamily": "Cascadia Code Regular , JetBrains Mono, Consolas, 'Courier New', monospace",
+      "editor.fontWeight": "300",
+      "editor.lineHeight": 20,
+      "editor.letterSpacing": 0.5,
+      "editor.cursorBlinking": "smooth",
+      "editor.largeFileOptimizations": false,
+      "editor.bracketPairColorization.enabled": true,
+      "editor.guides.bracketPairs": "active",
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "terminal.integrated.fontSize": 14,
 
       /**
        * * ********************************************************
@@ -98,13 +107,13 @@
        */
 
       "omnisharp.useModernNet": true,
-      "omnisharp.path": "C:\\Users\\vinos\\.vscode\\extensions\\ms-dotnettools.csharp-1.24.0\\.omnisharp\\1.38.0\\OmniSharp.exe",
+      "omnisharp.path": "C:\\Users\\vinos\\.vscode\\extensions\\ms-dotnettools.csharp-1.24.3-win32-x64\\.omnisharp\\1.38.2-net6.0\\OmniSharp.exe",
       "[csharp]": {
             "editor.defaultFormatter": "ms-dotnettools.csharp",
-            "editor.tabSize": 6,
             "editor.formatOnType": true,
             "editor.formatOnSave": true
       },
+      "csharpextensions.privateMemberPrefix": "_",
 
       /**
        * * ********************************************************
@@ -118,7 +127,6 @@
       "[html]": {
             "editor.defaultFormatter": "vscode.html-language-features"
       },
-      "editor.defaultFormatter": "vscode.typescript-language-features",
 
       "tabnine.experimentalAutoImports": true,
       "mssql.connections": [
@@ -191,10 +199,11 @@
       "prettier.tabWidth": 6,
       "prettier.semi": false,
       "prettier.singleQuote": true,
-      "[jsonc]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode"
+
+      "[java]": {
+            "editor.defaultFormatter": "redhat.java"
       },
-      "csharpextensions.privateMemberPrefix": "_",
-      "editor.tabSize": 6,
-      "editor.detectIndentation": false
+      "[javascript]": {
+            "editor.defaultFormatter": "ms-vsliveshare.vsliveshare"
+      }
 }
